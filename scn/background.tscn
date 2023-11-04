@@ -1,0 +1,169 @@
+[gd_scene load_steps=23 format=3 uid="uid://blcvtxcf6ef6w"]
+
+[ext_resource type="Texture2D" uid="uid://cmw1sms4lddnn" path="res://tiles/PNG Grass/grassHalf.png" id="1_dw0is"]
+[ext_resource type="Texture2D" uid="uid://b60nmnyk8ku1h" path="res://tiles/PNG Grass/grassHalfLeft.png" id="2_jnqhn"]
+[ext_resource type="Texture2D" uid="uid://boop0l2ejcplx" path="res://tiles/PNG Grass/grassHalfMid.png" id="3_thuer"]
+[ext_resource type="Texture2D" uid="uid://52uxmj0lfgs6" path="res://tiles/PNG Grass/grassHalfRight.png" id="4_io6vp"]
+[ext_resource type="Texture2D" uid="uid://df1tsytpidklp" path="res://tiles/PNG Grass/slice01_01.png" id="5_ohmwo"]
+[ext_resource type="Texture2D" uid="uid://m5qtv754a5bp" path="res://tiles/PNG Grass/slice02_02.png" id="6_56rnm"]
+[ext_resource type="Texture2D" uid="uid://dc5f2rr3hwyva" path="res://tiles/PNG Grass/slice03_03.png" id="7_ncifs"]
+[ext_resource type="Texture2D" uid="uid://djwpxg0l1ilq0" path="res://tiles/PNG Grass/slice04_04.png" id="8_qtdk0"]
+[ext_resource type="Texture2D" uid="uid://b6vdxo7o8gele" path="res://tiles/PNG Grass/slice05_05.png" id="9_aeo56"]
+[ext_resource type="Texture2D" uid="uid://bo3n2557ag1ij" path="res://tiles/PNG Grass/slice06_06.png" id="10_yej22"]
+[ext_resource type="Texture2D" uid="uid://yet2tatoelo6" path="res://tiles/PNG Grass/slice07_07.png" id="11_rytyr"]
+[ext_resource type="Texture2D" uid="uid://m5k7qy8m5l2r" path="res://tiles/PNG Grass/slice12_12.png" id="12_pjdh5"]
+[ext_resource type="Texture2D" uid="uid://btc2o25m2loew" path="res://tiles/PNG Grass/slice13_13.png" id="13_gdxsd"]
+[ext_resource type="Texture2D" uid="uid://qgsxjtx2kt17" path="res://tiles/PNG Grass/slice15_15.png" id="14_vdwxw"]
+[ext_resource type="Texture2D" uid="uid://dtj5xmip24wbt" path="res://tiles/PNG Grass/slice27_27.png" id="15_xbf47"]
+[ext_resource type="Texture2D" uid="uid://do6i4juw8cdf7" path="res://tiles/PNG Grass/slice33_33.png" id="16_685g1"]
+[ext_resource type="Texture2D" uid="uid://b5r8rgt3d381k" path="res://tiles/PNG Grass/slice34_34.png" id="17_mdkfm"]
+[ext_resource type="Texture2D" uid="uid://dkyrxfuyqtey8" path="res://tiles/PNG Grass/slice35_35.png" id="18_w5ru8"]
+[ext_resource type="Texture2D" uid="uid://dqumruoth612m" path="res://tiles/PNG Grass/slice21_21.png" id="19_ihpx6"]
+[ext_resource type="Texture2D" uid="uid://daaur1vo7uaxk" path="res://tiles/PNG Grass/slice14_14.png" id="20_njbl7"]
+[ext_resource type="PackedScene" uid="uid://dhj2kmkx8db3n" path="res://scn/player.tscn" id="21_6uor8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jjcjn"]
+size = Vector2(896.5, 63)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(572.75, 604.5)
+shape = SubResource("RectangleShape2D_jjcjn")
+
+[node name="GrassHalf" type="Sprite2D" parent="."]
+position = Vector2(52, -21)
+texture = ExtResource("1_dw0is")
+
+[node name="GrassHalfLeft" type="Sprite2D" parent="."]
+position = Vector2(193, -264)
+texture = ExtResource("2_jnqhn")
+
+[node name="GrassHalfMid" type="Sprite2D" parent="."]
+position = Vector2(304, -181)
+texture = ExtResource("3_thuer")
+
+[node name="GrassHalfRight" type="Sprite2D" parent="."]
+position = Vector2(217, -210)
+texture = ExtResource("4_io6vp")
+
+[node name="Slice0101" type="Sprite2D" parent="."]
+position = Vector2(535, -333)
+texture = ExtResource("5_ohmwo")
+
+[node name="Slice0202" type="Sprite2D" parent="."]
+position = Vector2(153, 608)
+texture = ExtResource("6_56rnm")
+
+[node name="Slice0303" type="Sprite2D" parent="."]
+position = Vector2(223, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0316" type="Sprite2D" parent="."]
+position = Vector2(659, 204)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0304" type="Sprite2D" parent="."]
+position = Vector2(293, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0305" type="Sprite2D" parent="."]
+position = Vector2(363, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0306" type="Sprite2D" parent="."]
+position = Vector2(433, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0307" type="Sprite2D" parent="."]
+position = Vector2(503, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0308" type="Sprite2D" parent="."]
+position = Vector2(573, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0309" type="Sprite2D" parent="."]
+position = Vector2(643, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0315" type="Sprite2D" parent="."]
+position = Vector2(1126, 307)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0314" type="Sprite2D" parent="."]
+position = Vector2(987, 376)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0310" type="Sprite2D" parent="."]
+position = Vector2(713, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0311" type="Sprite2D" parent="."]
+position = Vector2(783, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0312" type="Sprite2D" parent="."]
+position = Vector2(853, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0313" type="Sprite2D" parent="."]
+position = Vector2(923, 608)
+texture = ExtResource("7_ncifs")
+
+[node name="Slice0404" type="Sprite2D" parent="."]
+position = Vector2(993, 608)
+texture = ExtResource("8_qtdk0")
+
+[node name="Slice0505" type="Sprite2D" parent="."]
+position = Vector2(240, 159)
+texture = ExtResource("9_aeo56")
+
+[node name="Slice0606" type="Sprite2D" parent="."]
+position = Vector2(170, -352)
+texture = ExtResource("10_yej22")
+
+[node name="Slice0707" type="Sprite2D" parent="."]
+position = Vector2(1056, 306)
+texture = ExtResource("11_rytyr")
+
+[node name="Slice1212" type="Sprite2D" parent="."]
+position = Vector2(917, 376)
+texture = ExtResource("12_pjdh5")
+
+[node name="Slice1313" type="Sprite2D" parent="."]
+position = Vector2(86, -320)
+texture = ExtResource("13_gdxsd")
+
+[node name="Slice1515" type="Sprite2D" parent="."]
+position = Vector2(729, 204)
+texture = ExtResource("14_vdwxw")
+
+[node name="Slice2727" type="Sprite2D" parent="."]
+position = Vector2(359, -300)
+texture = ExtResource("15_xbf47")
+
+[node name="Slice3333" type="Sprite2D" parent="."]
+position = Vector2(1127, 376)
+texture = ExtResource("16_685g1")
+
+[node name="Slice3434" type="Sprite2D" parent="."]
+position = Vector2(137, -87)
+texture = ExtResource("17_mdkfm")
+
+[node name="Slice3535" type="Sprite2D" parent="."]
+position = Vector2(463, -71)
+texture = ExtResource("18_w5ru8")
+
+[node name="Slice2121" type="Sprite2D" parent="."]
+position = Vector2(1057, 376)
+texture = ExtResource("19_ihpx6")
+
+[node name="Slice1414" type="Sprite2D" parent="."]
+position = Vector2(590, 204)
+texture = ExtResource("20_njbl7")
+
+[node name="player" parent="." instance=ExtResource("21_6uor8")]
+position = Vector2(202, 575)

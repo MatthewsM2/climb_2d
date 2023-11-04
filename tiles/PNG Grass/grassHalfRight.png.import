@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://52uxmj0lfgs6"
+path="res://.godot/imported/grassHalfRight.png-a9176d6ea566ae5ff094ae1324eaea88.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://tiles/PNG Grass/grassHalfRight.png"
+dest_files=["res://.godot/imported/grassHalfRight.png-a9176d6ea566ae5ff094ae1324eaea88.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1
