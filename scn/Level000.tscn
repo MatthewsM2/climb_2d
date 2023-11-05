@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://badr2w33tso1b"]
+[gd_scene load_steps=28 format=3 uid="uid://badr2w33tso1b"]
 
 [ext_resource type="Texture2D" uid="uid://cmw1sms4lddnn" path="res://tiles/PNG Grass/grassHalf.png" id="1_xvbnv"]
 [ext_resource type="Texture2D" uid="uid://b60nmnyk8ku1h" path="res://tiles/PNG Grass/grassHalfLeft.png" id="2_tam2q"]
@@ -25,6 +25,21 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jjcjn"]
 size = Vector2(896.5, 63)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ms7w3"]
+size = Vector2(136.25, 27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r2dnm"]
+size = Vector2(20, 94)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4gqix"]
+size = Vector2(71, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ff6ox"]
+size = Vector2(206, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_thu1u"]
+size = Vector2(69.5, 20)
+
 [node name="Node2D" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
@@ -32,6 +47,27 @@ size = Vector2(896.5, 63)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(572.75, 604.5)
 shape = SubResource("RectangleShape2D_jjcjn")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(952, 355)
+shape = SubResource("RectangleShape2D_ms7w3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1062, 315)
+rotation = 0.773181
+shape = SubResource("RectangleShape2D_r2dnm")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1125.5, 282)
+shape = SubResource("RectangleShape2D_4gqix")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(660, 179)
+shape = SubResource("RectangleShape2D_ff6ox")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(240.25, 134)
+shape = SubResource("RectangleShape2D_thu1u")
 
 [node name="GrassHalf" type="Sprite2D" parent="."]
 position = Vector2(52, -21)
@@ -166,4 +202,4 @@ position = Vector2(590, 204)
 texture = ExtResource("20_w7pbu")
 
 [node name="player" parent="." instance=ExtResource("21_hsm84")]
-position = Vector2(202, 575)
+position = Vector2(227, 104)
